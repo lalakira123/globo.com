@@ -1,0 +1,237 @@
+body {
+  width: 100%;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.pagina {
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.barra-topo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+  height: 55px;
+}
+
+.logo img {
+  width: 250px;
+  height: 55px;
+}
+
+.menu {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-width: 100%;
+  border-top: 1px solid #f5f6f7;
+  border-bottom: 1px solid #f5f6f7;
+}
+
+.menu div {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.red {
+  color: #c3170c;
+}
+
+.blue {
+  color: #1e4b9b;
+}
+
+.green {
+  color: #006766;
+}
+
+.green-light {
+  color: #07aa47;
+}
+
+.orange {
+  color: #e3662b;
+}
+
+.red-pink {
+  color: #fb0735;
+}
+
+.pink {
+  color: #ff75bb;
+}
+
+.orange-light {
+  color: #ec7d00;
+}
+
+.black {
+  color: #323333;
+}
+
+.purple {
+  color: #a81d83;
+}
+
+a {
+  text-decoration: none;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 625px;
+  border-right: 1px solid #f5f6f7;
+}
+
+.caixa1 {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f5f6f7;
+  margin-bottom: 10px;
+  height: 250px;
+}
+
+.caixa1 h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+  margin-top: 15px;
+}
+
+.caixa1 p {
+  font-size: 18px;
+  color: #303134;
+  margin-top: 15px;
+}
+
+.caixa2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #f5f6f7;
+  height: 320px;
+}
+
+.materia img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.caixa3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.esporte {
+  width: 312.5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #f5f6f7;
+}
+
+.outros {
+  width: 312.5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.materia {
+  width: 193px;
+  margin-bottom: 5px;
+}
+
+.materia2 {
+  width: 240px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.materia3 {
+  width: 240px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.materia2 img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.materia3 img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+h6 {
+  color: #c4160c;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+h4 {
+  color: #2f3134;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p {
+  color: #303134;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.materia2 h6 {
+  color: #16ae54;
+}
+
+.materia3 h6 {
+  color: #ee8c1d;
+}
+
+h4:hover {
+  color: #4f5257;
+}
+
+h1:hover {
+  color: #f03018;
+}
+
+img:hover {
+  filter: brightness(70%);
+}
